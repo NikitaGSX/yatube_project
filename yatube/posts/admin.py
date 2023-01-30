@@ -1,8 +1,6 @@
 from django.contrib import admin
-
 # Из модуля models импортируем модель Post
 from .models import Post
-
 
 class PostAdmin(admin.ModelAdmin):
     # Перечисляем поля, которые должны отображаться в админке

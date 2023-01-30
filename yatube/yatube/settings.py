@@ -32,7 +32,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
-    'post.apps.PostConfig',  # Добавленная запись',
+    'posts.apps.PostConfig',  # Добавленная запись',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
